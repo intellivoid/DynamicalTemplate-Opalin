@@ -1,0 +1,31 @@
+{
+    "configuration": {
+        "primary_language": "en",
+        "debugging_mode": true,
+        "enable_ppm": true,
+        "buffer_output": true,
+        "compression": {
+            "compress_html": true,
+            "compress_javascript": true,
+            "compress_css": true
+        },
+        "favicon": "/assets/favicon/favicon.ico"
+    },
+    "router": [
+        {"method": ["GET"], "path": "/about", "page": "about", "params": []},
+        {"method": ["GET"], "path": "/forgot_password", "page": "forgot_password", "params": []},
+        {"method": ["GET"], "path": "/", "page": "index", "params": []},
+        {"method": ["GET"], "path": "/login", "page": "login", "params": []},
+        {"method": ["GET"], "path": "/pricing", "page": "pricing", "params": []},
+        {"method": ["GET"], "path": "/signup", "page": "signup", "params": []}
+    ],
+    "libraries": {},
+    "runtime_scripts": {
+        "initialize": [],
+        "on_page_load": [],
+        "page_loaded": [],
+        "after_request": [],
+        "on_request": [],
+        "on_import": []
+    }
+}
