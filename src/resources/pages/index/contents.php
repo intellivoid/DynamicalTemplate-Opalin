@@ -9,7 +9,7 @@
         <?PHP HTML::importSection("header"); ?>
     </head>
     <body class="page page-home preload">
-        <?PHP HTML::importSection("navigation"); ?>
+        <?PHP HTML::importSection("navigation_dark"); ?>
         <main>
 
             <section class="bg-image-hero center-tablet dark overlay-hero">

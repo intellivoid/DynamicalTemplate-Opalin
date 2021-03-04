@@ -9,7 +9,7 @@
         <?PHP HTML::importSection("header"); ?>
     </head>
     <body class="page page-home preload">
-        <?PHP HTML::importSection("navigation"); ?>
+        <?PHP HTML::importSection("navigation_light"); ?>
         <main>
 
             <section class="bg-gradient-light center padding padding-top">
